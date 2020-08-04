@@ -1,11 +1,7 @@
-<div class="container">
+<div class="container mt-5">
   <div class="row">
-    <div class="ngForm">
-      <div class="col-lg-2 col-md3 col-sm-6">
-        <p *ngFor="let user of users">
-          <app-member-card [user]="user">
-        </app-member-card>
+      <div *ngFor="let user of users" class="col-lg-2 col-md3 col-sm-6">
+      <app-member-card [user]="user"></app-member-card>
       </div>
-    </div>    
   </div>
 </div>
