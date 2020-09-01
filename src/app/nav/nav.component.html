@@ -18,7 +18,7 @@
       </a>
     
       <div class="dropdown-menu mt-3" *dropdownMenu>
-        <a class="dropdown-item" href="#">Edit Profile</a>
+        <a class="dropdown-item" [routerLink]="['/member/edit']">Edit Profile</a>
         <div class="dropdown-divider"><i class="fa fa-user"></i></div>
         <a class="dropdown-item" (click)="logOut()" href="#"><i class="fa fa-sing-out" ></i>Log Out</a>
       </div>
